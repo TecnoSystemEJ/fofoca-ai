@@ -1,15 +1,15 @@
 import React from "react";
 //imgs
-import Chat from "../img/chat.svg";
-import Pesquisa from "../img/pesquisa.svg";
-import Grup from "../img/grup.svg";
-import Coffe from "../img/coffe.svg";
-import Photo from "../img/photo.svg";
-import Logo from "../img/logo.svg";
+import Chat from "../../img/chat.svg";
+// import Pesquisa from "../img/pesquisa.svg";
+import Grup from "../../img/grup.svg";
+import Coffe from "../../img/coffe.svg";
+import Photo from "../../img/photo.svg";
+import Logo from "../../img/logo.svg";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-import "./navBar.css";
+import "./styles.css";
 
 const NavBar = () => {
   const [search, setSearch] = useState();

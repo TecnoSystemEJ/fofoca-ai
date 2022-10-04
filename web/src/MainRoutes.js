@@ -3,6 +3,7 @@ import { Link, Outlet, Route, Routes } from "react-router-dom";
 import Login from "./pages/Login";
 import Cadastro from "./pages/Register";
 import AuthTemplate from "./components/templates/AuthTemplate";
+import Home from "./pages/Home";
 
 export default function MainRoutes() {
   return (
@@ -10,17 +11,7 @@ export default function MainRoutes() {
       <Route
         path="/"
         element={
-          <div>
-
-            <p>
-              oi estou na home - Ir para <Link to="./auth/Login">login</Link>
-            </p>
-
-            <p>
-              oi estou na home - Ir para cadastro <Link to="./auth/register">Cadastro</Link>
-            </p>
-
-          </div>
+          <Home/>
         }
       />
       <Route path="auth" element={<AuthTemplate />} >
