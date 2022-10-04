@@ -43,9 +43,7 @@ const NavBar = () => {
           value={search}
         />
 
-        <Link>
-          <img src={Pesquisa} alt="" />
-        </Link>
+        <button>Pesquisar</button>
       </form>
 
       <div className="nav__menu">
