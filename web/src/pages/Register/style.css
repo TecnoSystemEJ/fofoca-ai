@@ -1,7 +1,6 @@
-
-.formLogin{
+.formRegister{
     width: 30vw;
-    height: 75vh;
+    height: 85vh;
 
     margin-top: 60px;
 
@@ -11,11 +10,7 @@
     flex-direction: column;
 }
 
-
-.formLogin a {
+.formRegister a {
     color: #898989;
     font-size: 13px;
 }
-
-
-
